@@ -1,5 +1,9 @@
 package com.bgs.bean;
-
+/**
+ * 
+ * @author 孟庆丰
+ *@Date 2018年3月24日 下午5:47:19
+ */
 public class User {
 	private int id;
 	private String username;
