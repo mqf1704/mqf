@@ -26,13 +26,13 @@ public class UserServiceImpl implements UserService {
 	public static void main(String[] args) {
 		ApplicationContext app=new ClassPathXmlApplicationContext("applicationContext-mybatis.xml");
 		UserService us=app.getBean(UserService.class);
-		/*List<User> uList=us.findUserList();
+		List<User> uList=us.findUserList();
 		for(User u:uList){
 			System.out.println(u.getUsername());
-		}*/
-		//写操作
-		User user=new User("mqf", "123456","男",18);
+		}
+		/*//写操作
+		User user=new User("xiaoming", "123456","男",18);
 		int i=us.addUser(user);
-		System.out.println(i);
+		System.out.println(i);*/
 	}
 }

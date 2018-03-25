@@ -55,7 +55,7 @@
 <!-- 	数据源2从库（读） -->
 	<bean id="slave01DataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close" scope="singleton">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
-		<property name="url" value="jdbc:mysql://192.168.198.130:3306/test"></property>
+		<property name="url" value="jdbc:mysql://192.168.198.128:3306/test"></property>
 		<property name="username" value="root"></property>
 		<property name="password" value="1704"></property>
 		<!-- 初始化连接 -->  
