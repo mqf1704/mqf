@@ -1,6 +1,6 @@
 package com.bgs.bean;
 /**
- * 测试日志
+ * 
  * @author 孟庆丰
  *@Date 2018年3月24日 下午5:47:19
  */
